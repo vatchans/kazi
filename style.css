@@ -1,0 +1,139 @@
+#n{
+  margin-left: 200px;
+}
+#cn{
+    display: flex!important;
+    justify-content:center!important;
+    align-items: center!important;
+    height: 500px;
+    flex-flow: column wrap!important;
+    
+}
+h1{
+    color:white;
+    font-size: 50px!important;
+    font-weight: 510!important;
+}
+h3,h6{
+    color: white!important;
+}
+#about{
+    padding: 10px 2px 10px 20%;
+    margin: 10px;
+    
+    
+}
+img{
+    width: 300px !important;
+    height:400px;
+    float:right;
+    padding-top:10%;
+}
+#txt{
+    padding: 40px 30px 40px 30px!important;
+    text-align: center!important;
+    font-family: sans-serif;
+}
+h4{
+    font-family: sans-serif;
+    margin:50px auto;
+    text-align: center;
+    position:relative;
+    }
+    h4:before{
+    content: "";
+    display:block;
+    width:44%;
+    height:1px;
+    background:lightgray;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    }
+    h4:after{
+    content: "";
+    display:block;
+    width: 44%;
+    height:1px;
+    background:lightgray;
+    position: absolute;
+    right: 0;
+    top: 50%;
+
+    }
+    span{
+    background: #fff
+    }
+   
+#box{
+    display: flex !important;
+    flex-direction:row!important;
+}
+
+
+.card-title{
+    font-weight: 600!important;
+    font-size:20px;
+}
+.card{
+    width: 300px !important;
+}
+#yr{
+    color:gray;
+}
+.card-text{
+    font-weight: lighter;
+}
+.p{
+    font-family: sans-serif;
+    font-size:24px ;
+    font-weight:bold;
+    margin:50px auto;
+    width: 600px;
+    text-align: center;
+    position:relative;
+    }
+    .p:before{
+    content: "";
+    display:block;
+    width:30%;
+    height:1px;
+    background:lightgray;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    }
+    .p:after{
+    content: "";
+    display:block;
+    width:30%;
+    height:1px;
+    background:lightgray;
+    position: absolute;
+    right: 0;
+    top: 50%;
+
+    }
+#poems{
+padding: 20px 20px 10px 20px!important;
+}
+ul{
+    margin-left:90px;
+}
+#footer{
+    background-color: black!important;
+    padding-left:260px;
+    padding-top:40px;
+    padding-right: 0%;
+    position: absolute;
+    
+}
+#footer p{
+    color:lightgray!important;
+}
+#footer p>b{
+    color: white !important;;
+}
+.line{
+    border-right: 1px solid grey;
+}
